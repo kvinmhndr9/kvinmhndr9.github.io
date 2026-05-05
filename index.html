@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio - Modern web development professional">
+    <title>Portofolio | Kevin Mahendra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-glow glow-1"></div>
+    <div class="background-glow glow-2"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Porto<span class="highlight">folio</span></a>
+            <ul class="nav-links">
+                <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+                <li><a href="#projek" class="nav-link">Projek</a></li>
+                <li><a href="#sertifikat" class="nav-link">Sertifikat</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="beranda" class="hero">
+            <div class="hero-content fade-in">
+                <span class="greeting">Halo! Saya</span>
+                <h1 class="hero-name">Kevin Mahendra<br>Yohanes Respati</h1>
+                <p class="hero-role"><span class="typing-text"></span></p>
+                <p class="subtitle">Mahasiswa aktif semester 4 Prodi D-III Sistem Informasi di Politeknik Negeri Subang.
+                    Memiliki
+                    minat di bidang pengembangan Sistem Informasi</p>
+                <div class="hero-cta">
+                    <a href="#projek" class="btn btn-primary">Lihat Projek</a>
+                    <a href="cv_kevin_ats.pdf" download="cv_kevin_ats.pdf" class="btn btn-secondary"><i
+                            class="fas fa-download"></i> Unduh CV</a>
+                </div>
+            </div>
+            <div class="hero-image slide-in-right">
+                <!-- A placeholder for an image, styled with CSS for now -->
+                <div class="image-wrapper">
+                    <img src="ganteng.png" alt="Foto Profil" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="keahlian" class="about section-padding">
+            <div class="section-header">
+                <h2 class="section-title">Keahlian <span class="highlight">Saya</span></h2>
+                <div class="title-line"></div>
+            </div>
+
+
+            <div class="skills-grid fade-in-up">
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-php skill-icon" style="color: #777BB4;"></i>
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-laravel skill-icon" style="color: #FF2D20;"></i>
+                    <h3>Laravel</h3>
+                </div>
+                <div class="skill-card glass-panel">
+                    <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL" class="skill-icon-img">
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-github skill-icon" style="color: #ffffff;"></i>
+                    <h3>Github</h3>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="fab fa-figma skill-icon" style="color: #F24E1E;"></i>
+                    <h3>Figma</h3>
+                </div>
+                <div class="skill-card glass-panel">
+                    <img src="https://cdn.simpleicons.org/mikrotik/cccccc" alt="MikroTik" class="skill-icon-img">
+                    <h3>MikroTik</h3>
+                </div>
+                <div class="skill-card glass-panel">
+                    <img src="winbox-mikrotik-icon.svg" alt="Winbox" class="skill-icon-img">
+                    <h3>Winbox</h3>
+                </div>
+                <div class="skill-card glass-panel">
+                    <img src="https://cdn.simpleicons.org/cisco/049fd9" alt="Cisco" class="skill-icon-img">
+                    <h3>Cisco PT</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projek" class="projects section-padding">
+            <div class="section-header">
+                <h2 class="section-title">Projek <span class="highlight">Saya</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-panel">
+                    <div class="project-img">
+                        <img src="vba.png" alt="VBA Excel Project" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>VBA Excel</h3>
+                        <p>Sistem Informasi pencatatan stok bahan baku berbasis VBA Excel di UMKM Keysha Kitchen</p>
+                        <div class="project-tags">
+                            <span>VBA</span><span>Microsoft Excel</span>
+                        </div>
+                        <a href="https://github.com/kvinmhndr9/sistem-pencatatan-stok-bahan-baku-berbasis-vba-excel"
+                            target="_blank" rel="noopener noreferrer" class="project-link">Source Code <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card glass-panel">
+                    <div class="project-img">
+                        <img src="muara.png" alt="Website Katalog Muara" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Website Katalog & Pemesanan Online</h3>
+                        <p>(SweetPine) Sistem Pemesanan Produk Olahan Nanas berbasis Web</p>
+                        <div class="project-tags">
+                            <span>PHP Native</span><span>CSS</span><span>JS</span><span>MySQL</span>
+                        </div>
+                        <a href="https://github.com/kvinmhndr9/project-muara-keysha-kitchen" target="_blank"
+                            rel="noopener noreferrer" class="project-link">Source Code <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card glass-panel">
+                    <div class="project-img">
+                        <img src="siasih.png" alt="Website Ticketing SIASIH" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Website Ticketing</h3>
+                        <p>(SI-ASIH) Sistem Informasi Management E-Tiket Wisata BUMDes Cipta Asih Desa Cibeusi untuk
+                            meningkatkan kualitas pelayanan pengunjung</p>
+                        <div class="project-tags">
+                            <span>Laravel</span><span>PHP</span><span>CSS</span><span>JS</span><span>MySQL</span>
+                        </div>
+                        <a href="https://github.com/kvinmhndr9/Project-2-BUMDes-Cipta-Asih-Desa-Cibeusi" target="_blank"
+                            rel="noopener noreferrer" class="project-link">Source Code <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sertifikat" class="services section-padding">
+            <div class="section-header">
+                <h2 class="section-title">Sertifikat <span class="highlight">Penghargaan</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-panel" style="animation-delay: 0.1s;">
+                    <div class="service-icon"><i class="fas fa-award"></i></div>
+                    <h3>Computer and Network Engineer</h3>
+                    <p>BNSP - SMKN 1 Subang</p>
+                    <a href="https://drive.google.com/file/d/1fBFDfzz8Rp6mVBRAK5aQIyhk3eICaI_7/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="cert-link">Lihat
+                        Sertifikat <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card glass-panel" style="animation-delay: 0.1s;">
+                    <div class="service-icon"><i class="fas fa-award"></i></div>
+                    <h3>Praktik Kerja Lapangan</h3>
+                    <p>Sertifikat PKL di PT. Fath Indo Mediatama</p>
+                    <a href="https://drive.google.com/file/d/1DRKFmKYmP7ASLmucaZs39LJaFLd5dOcW/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="cert-link">Lihat
+                        Sertifikat <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card glass-panel" style="animation-delay: 0.1s;">
+                    <div class="service-icon"><i class="fas fa-award"></i></div>
+                    <h3>Uji Kompetensi Keahlian</h3>
+                    <p>Diuji oleh PT. Jerbee Indonesia</p>
+                    <a href="https://drive.google.com/file/d/1VSryWRa3DiBo6gM4pyoXT-LgPLyqnq6i/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="cert-link">Lihat
+                        Sertifikat <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="contact section-padding">
+            <div class="section-header">
+                <h2 class="section-title">Hubungi <span class="highlight">Saya</span></h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="contact-minimal glass-panel fade-in">
+                <div class="contact-direct">
+                    <h4 class="contact-label">EMAIL</h4>
+                    <a href="mailto:hello@example.com" class="contact-link">mahendrakevin869@gmail.com</a>
+                    <h4 class="contact-label">TELEPON</h4>
+                    <a href="tel:+6281234567890" class="contact-link">+62 851 7969 9616</a>
+                </div>
+
+                <div class="contact-socials">
+                    <h4 class="contact-label">MEDIA SOSIAL</h4>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://github.com/kvinmhndr9" target="_blank" rel="noopener noreferrer"
+                                class="social-list-item">
+                                <span class="social-name"><i class="fab fa-github"></i> Github</span>
+                                <i class="fas fa-arrow-right icon-arrow"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/kvinmhndr9" target="_blank" rel="noopener noreferrer"
+                                class="social-list-item">
+                                <span class="social-name"><i class="fab fa-linkedin"></i> Linkedin</span>
+                                <i class="fas fa-arrow-right icon-arrow"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/kvinmhndr9" target="_blank" rel="noopener noreferrer"
+                                class="social-list-item">
+                                <span class="social-name"><i class="fab fa-instagram"></i> Instagram</span>
+                                <i class="fas fa-arrow-right icon-arrow"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Designed with Love by Kevin Mahendra</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
