@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Typing Effect ---
     const typingText = document.querySelector('.typing-text');
     if (typingText) {
-        const words = ['UI/UX Designer', 'System Analyst'];
+        const words = ['System Analyst', 'Technical Writer'];
         let wordIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
